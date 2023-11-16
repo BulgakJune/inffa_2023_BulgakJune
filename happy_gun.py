@@ -232,10 +232,7 @@ while not finished:
     screen.fill(WHITE)
     gun.draw()
     target.draw()
-    # target.move(rnd.randint(670, 700), rnd.randint(670, 700))
     target.move()
-    # centx = rnd.randint(670, 700)
-    # centy = rnd.randint(670, 700)
     for b in balls:
         if b.notdeath():
             b.draw()
